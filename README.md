@@ -1,4 +1,5 @@
 Assumptions:
+
 Whenever ChatBot launches server for deployment it will launch the server with Branch tag(value would be feature branch name)
 This will work for Single monolithic repo where all the feature development happens in branches(however we can modify the code for multiple repos if needed)
 This code support both ways IAM role / aws keys (they should have proper access to terminate instance)
