@@ -1,0 +1,5 @@
+source 'https://rubygems.org' do
+  # Gems here
+  gem "aws-sdk", '>=2.10.12'
+  gem "github_api", '>=0.17.0'
+end
