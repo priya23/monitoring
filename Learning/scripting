@@ -1,0 +1,3 @@
+for copying things variable from bash to mysql command first put it in a second variable then use it
+
+for i in {1..100}; do val=$i;mysql -h perf-testing.cwp2s2tspuae.us-east-1.rds.amazonaws.com -u root  -p testscript -ppriyanka -A -e "CREATE TABLE dimension_${val} command;" ;done
